@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ProductCatalog>
+    <product id="001" retailer="BestBuy">
+        <type>SmartPhone</type>
+        <image>image2.jpg</image>
+        <name>Moto G</name>
+        <condition>New</condition>
+        <price>400</price>
+        <accessories>
+            <accessory>Charger</accessory>
+            </accessories>
+    </product>
+    <product id="002" retailer="BestBuy">
+        <type>SmartPhone</type>
+        <image>image1.jpg</image>
+        <name>Apple 5S</name>
+        <condition>New</condition>
+        <price>350</price>
+        <accessories>
+            <accessory>Ear phones</accessory>
+             </accessories>
+        </product>
+<product id="003" retailer="BestBuy">
+        <type>SmartPhone</type>
+        <image>image3.jpg</image>
+        <name>samsung galaxy</name>
+        <condition>New</condition>
+        <price>700</price>
+        <accessories>
+            <accessory>Charger</accessory>
+            </accessories>
+    </product>
+
+<product id="004" retailer="BestBuy">
+        <type>SmartPhone</type>
+        <image>image4.jpg</image>
+        <name>apple 8</name>
+        <condition>New</condition>
+        <price>600</price>
+        <accessories>
+            <accessory>Charger</accessory>
+            </accessories>
+    </product>
+
+<product id="005" retailer="BestBuy">
+        <type>SmartPhone</type>
+        <image>image1.jpg</image>
+        <name>apple 4.5</name>
+        <condition>New</condition>
+        <price>500</price>
+        <accessories>
+            <accessory>Charger</accessory>
+            </accessories>
+    </product>
+
+
+<product id="006" retailer="BestBuy">
+        <type>Tablets</type>
+        <image>TBimage1.jpg</image>
+        <name>Samsung tablet X</name>
+        <condition>New</condition>
+        <price>400</price>
+        <accessories>
+            <accessory>Charger</accessory>
+            </accessories>
+    </product>
+    <product id="007" retailer="BestBuy">
+        <type>Tablets</type>
+        <image>TBimage2.jpg</image>
+        <name>Apple</name>
+        <condition >New</condition>
+        <price>350</price>
+        <accessories>
+            <accessory>Ear phones</accessory>
+             </accessories>
+        </product>
+
+    <product id="008" retailer="BestBuy">
+        <type>Tablets</type>
+        <image>TBimage3.jpg</image>
+        <name>Sleek</name>
+        <condition >New</condition>
+        <price>350</price>
+        <accessories>
+            <accessory>Ear phones</accessory>
+             </accessories>
+        </product>
+
+    <product id="009" retailer="BestBuy">
+        <type>Tablets</type>
+        <image>TBimage4.jpg</image>
+        <name>samsung 4</name>
+        <condition >New</condition>
+        <price>350</price>
+        <accessories>
+            <accessory>Ear phones</accessory>
+             </accessories>
+        </product>
+
+    <product id="010" retailer="BestBuy">
+        <type>Tablets</type>
+        <image>TBimage5.jpg</image>
+        <name>LG</name>
+        <condition >New</condition>
+        <price>350</price>
+        <accessories>
+            <accessory>Ear phones</accessory>
+             </accessories>
+        </product>
+
+<product id="011" retailer="BestBuy">
+        <type>Laptops</type>
+        <image>Limage1.jpg</image>
+        <name>Dell</name>
+        <condition>New</condition>
+        <price>400</price>
+        <accessories>
+            <accessory>Charger</accessory>
+            </accessories>
+    </product>
+    <product id="012" retailer="BestBuy">
+        <type>Laptops</type>
+        <image>Limage4.jpg</image>
+        <name>ACER</name>
+        <condition >New</condition>
+        <price>350</price>
+        <accessories>
+            <accessory>Ear phones</accessory>
+             </accessories>
+        </product>
+
+    <product id="013" retailer="BestBuy">
+        <type>Laptops</type>
+        <image>Limage3.jpg</image>
+        <name>ACER 66</name>
+        <condition >New</condition>
+        <price>350</price>
+        <accessories>
+            <accessory>Ear phones</accessory>
+             </accessories>
+        </product>
+
+    <product id="014" retailer="BestBuy">
+        <type>Laptops</type>
+        <image>Limage4.jpg</image>
+        <name>apple</name>
+        <condition >New</condition>
+        <price>350</price>
+        <accessories>
+            <accessory>Ear phones</accessory>
+             </accessories>
+        </product>
+
+    <product id="015" retailer="BestBuy">
+        <type>Laptops</type>
+        <image>Limage5.jpg</image>
+        <name>lenovo</name>
+        <condition >New</condition>
+        <price>350</price>
+        <accessories>
+            <accessory>Ear phones</accessory>
+             </accessories>
+        </product>
+
+<product id="016" retailer="BestBuy">
+        <type>TV</type>
+        <image>Timage1.jpg</image>
+        <name>samsung</name>
+        <condition>New</condition>
+        <price>700</price>
+        <accessories>
+            <accessory>Charger</accessory>
+            </accessories>
+    </product>
+    <product id="017" retailer="BestBuy">
+        <type>TV</type>
+        <image>Timage2.jpg</image>
+        <name>samsung 6</name>
+        <condition >New</condition>
+        <price>350</price>
+        <accessories>
+            <accessory>Ear phones</accessory>
+             </accessories>
+        </product>
+<product id="018" retailer="BestBuy">
+        <type>TV</type>
+        <image>Timage1.jpg</image>
+        <name>samsung</name>
+        <condition>New</condition>
+        <price>700</price>
+        <accessories>
+            <accessory>Charger</accessory>
+            </accessories>
+    </product>
+<product id="019" retailer="BestBuy">
+        <type>TV</type>
+        <image>Timage4.jpg</image>
+        <name>samsung 7</name>
+        <condition>New</condition>
+        <price>700</price>
+        <accessories>
+            <accessory>Charger</accessory>
+            </accessories>
+    </product>
+<product id="020" retailer="BestBuy">
+        <type>TV</type>
+        <image>Timage5.jpg</image>
+        <name>samsung 65</name>
+        <condition>New</condition>
+        <price>700</price>
+        <accessories>
+            <accessory>Charger</accessory>
+            </accessories>
+    </product>
+
+
+
+
+
+<product id="060" retailer="sam">
+        <type>TV</type>
+        <image>Timage6.jpg</image>
+        <name>fitbit65</name>
+        <condition>New</condition>
+        <price>400</price>
+        <accessories>
+            <accessory>Charger</accessory>
+            </accessories>
+    </product>
+
+</ProductCatalog>
