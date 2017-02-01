@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Write Review</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+
+<body>
+
+    <div id="container">
+        <header>
+			<h1><a href="/">CSP 595<span>bestdeals</span></a></h1>
+			<h2>BestDeals</h2>
+		</header>
+        
+		<nav>
+			<ul>
+				<li class=""><a href="Index.html">Home</a></li>
+				<li class="start selected"><a href="WriteReview.html">Write Review</a></li>
+				<li class=""><a href="DataAnalytics.html">Data Analytics</a></li>
+			</ul>
+		</nav>
+		
+        <div id="body">
+
+            <section id="content">
+
+                <article>
+
+                    <h2> Add Product Review</h2>
+
+                    <form method="post" class="searchform" action="SubmitReview">
+
+                        <table>
+
+                            <tr>
+                                <td> Product Category: </td>
+                                <td>
+                                    <select name="productCategory">
+                                        <option value="SmartPhones" selected>SmartPhones</option>
+                                        <option value="Laptop">Laptop</option>
+                                        <option value="TV">TV</option>
+                                        <option value="Tablets">Tablets</option>
+                                        
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td> Product Name: </td>
+                                <td>
+                                    <select name="productName">
+                                    <input type="text" name="productName"/>
+                                        <!-- <option value="">XBOX ONE</option>
+                                        <option value="XBOX360">XBOX 360</option>
+                                        <option value="PS3">PS 3</option>
+                                        <option value="PS4">PS 4</option>
+                                        <option value="WII">WII</option>
+                                        <option value="WII-U">WII-U</option>
+                                        <option value="FIFA">FIFA</option>
+                                        <option value="FORZA">FORZA</option>
+                                        <option value="NBA2K14">NBA2K14</option>
+                                </td> -->
+                            </tr>
+
+
+                            <tr>
+                                <td> Product Price: </td>
+                                <td>
+                                    <input type="number" name="productPrice" size=10 class="s" /> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Retailer Name: </td>
+                                <td>
+                                    <select name="retailerName">
+                                        <option value="Samsung" selected>Samsung</option>
+                                        <option value="LG">LG</option>
+                                        <option value="Apple">Apple</option>
+                                        
+                                </td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td> Retailer Zip code: </td>
+                                <td>
+                                    <input type="number" name="retailerZipcode" size=10/> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Retailer City: </td>
+                                <td>
+                                    <input type="text" name="retailerCity" class="s" /> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Retailer State: </td>
+                                <td>
+                                    <input type="text" name="retailerState" class="s" /> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Product On Sale: </td>
+                                <td>
+                                    <input type="radio" name="productOnSale" value="Yes" /> Yes
+                                    <input type="radio" name="productOnSale" value="No" /> No</td>
+                            </tr>
+
+
+                            <tr>
+                                <td> Product Manufacturer: </td>
+                                <td>
+                                    <select name="consoleManufacturer">
+                                        <option value="Samsung" selected>Samsung</option>
+                                        <option value="LG">LG</option>
+                                        <option value="Apple">Apple</option>
+                                        <!-- <option value="ElectronicArts">Electronic Arts</option>
+                                        <option value="Activision">Activision</option>
+                                        <option value="TakeTwoInteractive">Take-Two Interactive</option> -->
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td> Manufacture Rebate: </td>
+                                <td>
+                                    <input type="radio" name="manufacturerRebate" value="Yes" /> Yes
+                                    <input type="radio" name="manufacturerRebate" value="No" /> No</td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td> User ID: </td>
+                                <td>
+                                    <input type="text" name="userID" class="s" /> </td>
+                            </tr>
+
+                            <tr>
+                                <td> User Age: </td>
+                                <td>
+                                    <input type="number" name="userAge" class="s" /> </td>
+                            </tr>
+
+                            <tr>
+                                <td> User Gender: </td>
+                                <td>
+                                    <input type="radio" name="userGender" value="Male" /> Male
+                                    <input type="radio" name="userGender" value="Female" /> Female</td>
+                            </tr>
+
+                            <tr>
+                                <td> User Occupation: </td>
+                                <td>
+                                    <input type="text" name="userOccupation" class="s" /> </td>
+                            </tr>
+
+
+                            <tr>
+                                <td> Review Rating: </td>
+                                <td>
+                                    <select name="reviewRating">
+                                        <option value="1" selected>1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td> Review Date: </td>
+                                <td>
+                                    <input type="date" name="reviewDate" size=10/> </td>
+                            </tr>
+
+                            <tr>
+                                <td> Review Text: </td>
+                                <td>
+                                    <textarea name="reviewText" rows="4" cols="50"> </textarea>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <input type="submit" value="Submit Review" class="formbutton" /> </td>
+                                <td></td>
+                            </tr>
+
+                        </table>
+                    </form>
+
+                </article>
+
+            </section>
+
+			<aside class="sidebar">
+			
+					<ul>	
+					   <li>
+							<h4>Options</h4>
+							<ul>
+								<li><a href="WriteReview.html">Write Reviews</a></li>
+								<li><a href="DataAnalytics.html">Data Analytics</a></li>
+							
+							</ul>
+						</li>
+						
+						<li>
+							<h4>About us</h4>
+							<ul>
+								<li class="text">
+									<p style="margin: 0;">Best Deals - Buy the best of the rest!!!</p>
+								</li>
+							</ul>
+						</li>
+						
+						<li>
+							<h4>Search site</h4>
+							<ul>
+								<li class="text">
+									<form method="get" class="searchform" action="#" >
+										<p>
+											<input type="text" size="25" value="" name="s" class="s" />
+											
+										</p>
+									</form>	
+								</li>
+							</ul>
+						</li>
+						
+						<li>
+							<h4>Helpful Links</h4>
+							<ul>
+								<li><a href="#" title="premium templates">Dummylink</a></li>
+								<li><a href="#" title="web hosting">DummyLink</a></li>
+								
+							</ul>
+						</li>
+						
+					</ul>
+				
+			</aside>
+
+            <div class="clear"></div>
+        </div>
+
+        <footer>
+
+            <div class="footer-content">
+                <ul>
+                    <li>
+                        <h4>Dummy Link Section 1</h4>
+                    </li>
+                    <li><a href="#">Dummy Link 1</a>
+                    </li>
+                    <li><a href="#">Dummy Link 2</a>
+                    </li>
+                    <li><a href="#">Dummy Link  3</a>
+                    </li>
+                </ul>
+
+                <div class="clear"></div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>CSP 595 - Enterprise Web Application</p>
+            </div>
+
+        </footer>
+    </div>
+
+
+</body>
+
+</html>

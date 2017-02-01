@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Data Analytics</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+
+<body>
+
+    <div id="container">
+        <header>
+			<h1><a href="/">CSP 595<span>OnlineStore!!</span></a></h1>
+			<h2>BestDeals</h2>
+		</header>
+        
+		<nav>
+			<ul>
+				<li class=""><a href="welcomeLogin.html">Home</a></li>
+				<li class="start selected"><a href="DataAnalytics.html">Data Analytics</a></li>
+			</ul>
+		</nav>
+
+        <div id="body">
+
+            <section id="review-content">
+
+                <article>
+
+                    <h3> Find Data </h3>
+
+                    <form method="post" class="searchform" action="FindReviews">
+
+                        <table class = "query-table">
+							<tr>
+								<td colspan = "4"> <b> Simple Search </b> </td>
+							</tr>
+                            
+							<tr>
+								<td> <input type="checkbox" name="queryCheckBox" value="productName" checked> Select </td>
+                                <td> Product Name: </td>
+                                <td>
+                                    <select name="productName">
+										<option value="ALL_PRODUCTS">All Products</option>
+                                        <option value="samsung">samsung</option>
+										 <option value="apple5s">apple5s</option>
+                                        <option value="LG">LG 360</option>
+                                        <option value="samsunggalaxy">samsunggalaxy</option>
+                                        <option value="apple">apple</option>
+                                        <!-- <option value="WII">WII</option>
+                                        <option value="WII-U">WII-U</option>
+                                        <option value="FIFA">FIFA</option>
+                                        <option value="FORZA">FORZA</option>
+                                        <option value="NBA2K14">NBA2K14</option> -->
+                                </td>
+								<td> </td>
+                            </tr>
+							
+							<tr>
+								<td> <input type="checkbox" name="queryCheckBox" value="productPrice"> Select </td>
+                                <td> Product Category: </td>
+                                <td>
+                                    <select name="productCategory">
+                                        <option value="Console" selected>Game Console</option>
+                                        <option value="Game">Game</option>
+                                        <option value="Accessories">Accessories</option>
+                                </td>
+								
+							<tr>
+                            <tr>
+								<td> <input type="checkbox" name="queryCheckBox" value="productPrice"> Select </td>
+                                <td> Product Price: </td>
+                                <td>
+                                    <input type="number" name="productPrice" value = "0" size=10 class="s" /> </td>
+								<td>
+									<input type="radio" name="comparePrice" value="EQUALS_TO" checked> Equals <br>
+									<input type="radio" name="comparePrice" value="GREATER_THAN"> Greater Than <br>
+									<input type="radio" name="comparePrice" value="LESS_THAN"> Less Than <br>
+									<input type="radio" name="comparePrice" value="HIGHEST_Price"> Highest Price
+								</td>
+                            </tr>
+							
+							<tr>
+								<td> <input type="checkbox" name="queryCheckBox" value="retailerName"> Select </td>
+                                <td> Retailer Name: </td>
+                                <td>
+                                    <input type="text" name="retailerName" value = "" size=10/> </td>
+								</td>
+                            </tr>
+							
+							<tr>
+								<td> <input type="checkbox" name="queryCheckBox" value="retailerName"> Select </td>
+                                <td> Product On Sale: </td>
+                                <td>
+                                    <input type="text" name="productOnSale" value = "" size=10/> </td>
+								</td>
+                            </tr>
+							
+							<tr>
+								<td> <input type="checkbox" name="queryCheckBox" value="retailerState"> Select </td>
+                                <td> Retailer State: </td>
+                                <td>
+                                    <input type="text" name="retailerState" value = "" class="s" /> </td>
+								<td> </td>
+                            </tr>
+
+                            <tr>
+								<td> <input type="checkbox" name="queryCheckBox" value="retailerZip"> Select </td>
+                                <td> Retailer Zip code: </td>
+                                <td>
+                                    <input type="number" name="retailerZipcode" value = "" size=10/> </td>
+								<td> </td>
+                            </tr>
+
+                            <tr>
+								<td> <input type="checkbox" name="queryCheckBox" value="retailerCity"> Select </td>
+                                <td> Retailer City: </td>
+                                <td>
+                                    <input type="text" name="retailerCity" value = "" class="s" /> </td>
+								<td> </td>
+                            </tr>
+							
+							<tr>
+								<td> <input type="checkbox" name="queryCheckBox" value="manufacturerRebate"> Select </td>
+                                <td> Manufacturer Rebate: </td>
+                                <td>
+                                    <input type="text" name="manufacturerRebate" value = "" class="s" /> </td>
+								<td> </td>
+                            </tr>
+
+
+							
+                            <tr>
+								<td> <input type="checkbox" name="queryCheckBox" value="reviewRating"> Select </td>
+                                <td> Review Rating: </td>
+                                <td>
+                                    <select name="reviewRating">
+                                        <option value="1" selected>1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                </td>
+								<td>
+									<input type="radio" name="compareRating" value="EQUALS_TO" checked> Equals <br>
+									<input type="radio" name="compareRating" value="GREATER_THAN"> Greater Than 
+								</td>
+                            </tr>
+							<tr>
+								<td>
+									Return:
+								</td>
+								<td colspan = "4"> 
+									<select name="returnValue">
+										<option value="ALL" selected>All</option>
+                                        <option value="TOP_5">Top 5 </option>
+                                        <option value="TOP_10">Top 10 </option>
+										<option value="LATEST_5">Latest 5 </option>
+										<option value="LATEST_10">Latest 10 </option>
+                                </td>
+							</tr>							
+							<tr>
+								<td colspan = "4"> <b> Grouping </b> </td>
+							</tr>
+							<tr>
+								<td>
+                                <input type="checkbox" name="extraSettings" value="GROUP_BY"> Group By
+								</td>
+								<td colspan = "3">
+								<select name="groupByDropdown">
+                                        <option value="GROUP_BY_CITY" selected>City</option>
+                                        <option value="GROUP_BY_PRODUCT">Product Name</option>
+										<option value="GROUP_BY_PRODUCTCATAGORY">Product Category</option>
+										<option value="GROUP_BY_PRODUCTPRICE">Product Price</option>
+										<option value="GROUP_BY_RETAILER_NAME">Retailer Name</option>
+										<option value="GROUP_BY_RETAILERSTATE">Retailer State</option>
+										<option value="GROUP_BY_USERID">User ID</option>
+										<option value="GROUP_BY_USERAGE">User Age</option>
+										<option value="GROUP_BY_USERGENDER">User Gender</option>
+										<option value="GROUP_BY_USEROCCUPATION">User Occupation</option>
+										<option value="GROUP_BY_RETAILERZIP">Zip Code</option>
+										<option value="GROUP_BY_PRODUCTONSALE">Product On Sale</option>
+										<option value="GROUP_BY_MANUFACTURERNAME">Manufacturer Name</option>
+										<option value="GROUP_BY_MANUFACTURERREBATE">Manufacturer Rebate</option>
+										<option value="GROUP_BY_RATING">Review Rating</option>	
+										<option value="GROUP_BY_REVIEWDATE">Review Date</option>
+										
+										
+										
+                                </td>
+								
+								
+                            </tr>
+							<tr>
+								<td colspan = "4"> <b> Trending </b> </td>
+							</tr>
+							<tr>
+								<td>
+                                <input type="checkbox" name="trendSettings" value="TREND_BY"> Trend By
+								</td>
+								<td colspan = "3">
+								<select name="groupByDropdown">
+                                        <option value="TREND_BY_CITY" selected>City</option>
+                                         									
+                                </td>
+                            </tr>
+							
+							<tr>
+								<td colspan = "4"> <b> Advanced Search </b> </td>
+							</tr>
+							
+                            <tr>
+								<td>
+                                <input type="checkbox" name="advancedSettings" value="Advance_Search">Advanced Search
+								</td>
+								<td colspan = "3">
+								<select name="advancedByDropdown">
+                                        <option value="Median_BY_CITY" selected>Median Price Per City</option>
+										<option value="TOP5_LIKED_EXPENSIVE_CITY_RETAILER" selected>Top 5 Liked Expensive</option>
+										<option value="TOP5_DISLIKED_CITY_RETAILER" selected>Top 5 DisLiked</option>
+										<option value="REVIEWERAGE_GRATER_THAN_50_CITY" selected>REVIEWER AGE GREATER THAN 50</option>
+										<option value="TOP5_DISLIKED_CITY_RETAILERZIP" selected>Top 5 DisLiked Zip Wise</option>
+                                         									
+                                </td>
+                            </tr>
+							
+							<tr>
+								<td> <input type="checkbox" name="searchCheckBox" value="patternSearch"> Select </td>
+                                <td> Search Text For Pattern Matching: </td>
+                                <td>
+                                    <input type="text" name="patternSearch" placeholder = "Enter Word" class="s" /> </td>
+								<td> </td>
+                            </tr>
+							
+                            <!-- <tr>
+                                <td colspan = "10"> <input type="submit" value="Search" class="formbutton" /> </td>
+                            </tr> -->
+							
+							<tr>
+                                <td colspan = "4"> <input type="submit" value="Find Data" class="formbutton" /> </td>
+                                
+                            </tr>
+
+                        </table>
+                    </form>
+
+                </article>
+
+            </section>
+
+            <div class="clear"></div>
+        </div>
+
+        <footer>
+
+            <div class="footer-content">
+                <ul>
+                    <li>
+                        <h4>Dummy Link Section 1</h4>
+                    </li>
+                    <li><a href="#">Dummy Link 1</a>
+                    </li>
+                    <li><a href="#">Dummy Link 2</a>
+                    </li>
+                    <li><a href="#">Dummy Link  3</a>
+                    </li>
+                </ul>
+
+                <div class="clear"></div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>CSP 595 - Enterprise Web Application </p>
+            </div>
+
+        </footer>
+    </div>
+
+
+</body>
+
+</html>

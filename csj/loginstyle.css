@@ -1,0 +1,10 @@
+body {
+    width:300px; /*how broad the calculator is*/
+	padding:40px 20px 10px 10px; 
+    height:500px;/*vertical size of calculator*/
+    border:1px solid black; /*width size style and color*/
+    text-align: center; /*css property to center text or align html*/
+    margin:150px auto;/*margin from top is 150px and auto is for left and right.if you want to center any element then auto is used */
+    box-shadow: 0px 0px 30px gray;/* box shadow is a html property to give shadow to HTML elements.Normally it takes 4 values. 1st is how far from left you want the shadow.2nd value is how far from top you want the shadow.3rd value is bluriness of shadow.and 4th is color of shadow*/
+}
+
